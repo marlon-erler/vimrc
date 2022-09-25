@@ -18,4 +18,9 @@ Plug 'leafgarland/typescript-vim'
 "# coc setup 
 let g:coc_global_extensions = ['coc-tsserver']
 
+"# svelte setup
+Plug 'othree/html5.vim'
+Plug 'pangloss/vim-javascript'
+Plug 'evanleck/vim-svelte', {'branch': 'main'}
+
 call plug#end()
