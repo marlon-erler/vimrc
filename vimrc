@@ -18,9 +18,7 @@ Plug 'leafgarland/typescript-vim'
 "# coc setup 
 let g:coc_global_extensions = ['coc-tsserver']
 
-"# svelte setup
-Plug 'othree/html5.vim'
-Plug 'pangloss/vim-javascript'
-Plug 'evanleck/vim-svelte', {'branch': 'main'}
+"# jsx setup
+Plug 'maxmellon/vim-jsx-pretty'
 
 call plug#end()
