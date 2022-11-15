@@ -4,7 +4,7 @@ set autoread
 set smartindent
 set tabstop=4
 set shiftwidth=4
-colorscheme slate 
+colorscheme default 
 filetype plugin indent on
 
 "# vim-plug
