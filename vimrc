@@ -14,11 +14,16 @@ call plug#begin()
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'leafgarland/typescript-vim'
+Plug 'wfxr/minimap.vim'
 
 "# coc setup 
 let g:coc_global_extensions = ['coc-tsserver']
 
 "# jsx setup
 Plug 'maxmellon/vim-jsx-pretty'
+
+"# minimap
+let g:minimap_width = 10
+let g:minimap_auto_start = 1
 
 call plug#end()
