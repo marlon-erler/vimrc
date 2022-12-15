@@ -19,6 +19,8 @@ Plug 'wfxr/minimap.vim'
 "# coc setup 
 let g:coc_global_extensions = ['coc-tsserver']
 
+"CocInstall coc-rust-analyzer
+
 "# jsx setup
 Plug 'maxmellon/vim-jsx-pretty'
 
